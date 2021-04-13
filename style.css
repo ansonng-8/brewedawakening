@@ -26,7 +26,6 @@
     color: #ffffff !important;
     font-size: 1.2em !important;
     padding: 0px 30px 0px 30px !important;
-    font-weight: 600 !important;
 }
 
 .navbar li a:hover {
@@ -115,15 +114,10 @@
 }
 
 .header-img {
-    /* width: 800px;
-    height: auto;
     position: absolute;
-    top: 30%;
-    left: 60%;
-    right: 0;
-    bottom: 0; */
-    width: 550px;
+    width: 630px;
 }
+
 
 /* End of Header Section */
 
@@ -295,11 +289,11 @@
 /* Start of Mission Section */
 .container-4 {
     background: #7F0A0A !important;
-    padding: 130px 100px;
+    padding: 100px 100px;
 }
 
-.container-4 .row .col {
-    padding: 100px !important;
+.container-4 .row .col-8 {
+    padding: 50px 0px 50px 100px !important;
 }
 
 .container-4 h2 {
@@ -341,6 +335,7 @@
 
 #mission {
     border-radius: 150px 0 0 0;
+    padding: 50px !important;
 }
 
 .mission-bg {
@@ -351,11 +346,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 0px !important;
 }
 
 .mission-img img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    width: 950px;
+    width: 450px;
 }
 
 /* End of Mission Section */
@@ -391,10 +390,18 @@
 }
 
 /* End of Footer */
+/* 
 
-
-/* @media only screen and (max-width: 1080px) {
-    .card {
-        width: 10rem !important;
+@media (min-width: 1281px) {
+    .header-img {
+        position: absolute;
+        width: 550px;
     }
-  } */
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .header-img {
+        width: 750px;
+    }
+    
+} */
