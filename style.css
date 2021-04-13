@@ -26,6 +26,7 @@
     color: #ffffff !important;
     font-size: 1.2em !important;
     padding: 0px 30px 0px 30px !important;
+    font-weight: 600 !important;
 }
 
 .navbar li a:hover {
