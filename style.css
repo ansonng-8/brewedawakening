@@ -25,6 +25,7 @@
 .navbar li a {
     color: #ffffff !important;
     font-size: 1.2em !important;
+    font-weight: 600;
     padding: 0px 30px 0px 30px !important;
 }
 
@@ -37,7 +38,7 @@
 }
 
 .logo {
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 /* End of Nav Bar */
