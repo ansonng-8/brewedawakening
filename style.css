@@ -45,7 +45,7 @@
 /* Start of Header Section */
 .container-1 {
     background: #7F0A0A !important;
-    padding: 130px 100px;
+    padding: 130px 100px 150px 100px;
 }
 /* 
 .container-1 .row .col {
@@ -115,7 +115,7 @@
 
 .header-img {
     position: absolute;
-    width: 630px;
+    width: 650px;
 }
 
 
