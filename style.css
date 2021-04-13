@@ -124,7 +124,7 @@
 /* Start of Blurb Section */
 .container-2 {
     background: #ffffff;
-    padding: 150px 100px;
+    padding: 120px 100px;
 }
 
 .container-2 h2 {
@@ -150,7 +150,7 @@
 /* Start of Bestsellers Section */
 .container-3 {
     background: #000000;
-    padding: 150px 100px;
+    padding: 80px 100px;
 }
 
 .container-3 h2 {
@@ -180,14 +180,15 @@
 .con-row-3 {
     color: #ffffff;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 /* ~~~~~ CARD ~~~~~~ */
 .card {
     display: flex;
     margin: 0 auto;
-    border-radius: 0 100px 0 100px;
+    border-radius: 0 70px 0 70px;
+    height: 380px;
 }
 
 .card-body {
@@ -214,7 +215,7 @@
 }
 
 .card-text {
-    margin: 20px 20px;
+    margin: 20px 5px;
 }
 
 .product-info {
@@ -335,7 +336,7 @@
 
 #mission {
     border-radius: 150px 0 0 0;
-    padding: 50px !important;
+    /* padding: 50px !important; */
 }
 
 .mission-bg {
