@@ -46,8 +46,29 @@
 /* Start of Header Section */
 .container-1 {
     background: #7F0A0A !important;
-    padding: 130px 100px 150px 100px;
+    padding: 130px 100px 130px 100px;
+    
 }
+
+.header-image, .mission-image, .about-content {
+    flex: 1;
+}
+
+.header-content, .mission-content, .about-content2 {
+    flex: 1;
+    
+}
+
+.mission-content {
+    margin-top: 80px;
+}
+
+@media (min-width: 900px){
+    .container-1, .container-4, .container-2 {
+        display: flex;
+    }
+}
+
 /* 
 .container-1 .row .col {
     padding: 100px !important;
@@ -118,10 +139,10 @@
 
 .header-img {
     /* position: absolute; */
-    /* overflow: hidden; */
-    overflow: initial !important;
-    width: 650px;
+    width: 550px;
 }
+
+
 
 
 /* End of Header Section */
@@ -296,12 +317,9 @@
 /* Start of Mission Section */
 .container-4 {
     background: #7F0A0A !important;
-    padding: 100px 100px;
+    padding: 50px 100px 50px 100px;
 }
 
-.container-4 .row .col-8 {
-    padding: 50px 0px 50px 100px !important;
-}
 
 .container-4 h2 {
     width: 60%;
@@ -363,8 +381,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    width: 450px;
+    width: 550px;
 }
 
 /* End of Mission Section */
@@ -400,18 +417,9 @@
 }
 
 /* End of Footer */
-/* 
 
-@media (min-width: 1281px) {
-    .header-img {
-        position: absolute;
-        width: 550px;
+@media (max-width: 910px){
+    .container-1 .header-img, .mission-img img {
+        width: 500px;
     }
 }
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-    .header-img {
-        width: 750px;
-    }
-    
-} */
